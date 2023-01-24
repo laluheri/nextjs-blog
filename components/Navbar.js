@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import YouTubeLink from "./YouTubeLink";
+import YouTubeLink from "./YoutubeLink";
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
